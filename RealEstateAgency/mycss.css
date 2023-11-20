@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333; /* Dark gray color for text */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+a {
+    color: #007BFF; /* Links with a formal blue */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label, input[type="text"], input[type="password"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+body, p, h1, h2, h3, h4, h5, h6, button, input[type="submit"], a {
+    text-align: left;
+}
+
+button {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a6268;
+}
